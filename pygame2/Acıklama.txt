@@ -1,0 +1,13 @@
+Calısması için XAMPP dem Apache ve MySQL başlatılmalı
+ve MySQL bu kod yazılı SQL olusturulmalı
+CREATE DATABASE supermarket_game;
+
+USE supermarket_game;
+
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    is_checked BOOLEAN DEFAULT 0
+);
+Kodun içinde açıklamaları yazıyor
+
